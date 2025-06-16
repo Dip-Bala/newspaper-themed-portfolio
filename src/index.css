@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Typo;
+    src: url("/public/assets//fonts/GideonRoman-Regular.ttf")
+}
+
+@import "tailwindcss";
+@theme {
+    --font-typography: Typo, "sans-serif";
+}
