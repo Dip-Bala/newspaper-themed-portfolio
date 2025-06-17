@@ -1,9 +1,14 @@
 @font-face {
-    font-family: Typo;
-    src: url("/public/assets//fonts/GideonRoman-Regular.ttf")
+    font-family: Typo SemiBold;
+    src: url("/assets/fonts/PlayfairDisplay-SemiBold.ttf")
+}
+@font-face {
+    font-family: Typo Medium;
+    src: url("/assets/fonts/PlayfairDisplay-Medium.ttf")
 }
 
 @import "tailwindcss";
 @theme {
-    --font-typography: Typo, "sans-serif";
+    --font-typoSemibold: Typo SemiBold, "sans-serif";
+    --font-typoMedium: Typo Medium, "sans-serif";
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LatestNewsComp({text}){
     return (
-        <div className="">
+        <div className="font-typoMedium text-lg">
             {text}
         </div>
     )
