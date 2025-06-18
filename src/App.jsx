@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/header/Header'
 import LatestNews from './container/LatestNews'
 import Contacts from './container/Contacts'
+import SkillSet from './container/SkillSet'
 import ProjectComponenet from './components/projects/ProjectComponent'
 
 export default function App(){
@@ -10,6 +11,7 @@ export default function App(){
       <Header/>
       <LatestNews />
       <ProjectComponenet />
+      <SkillSet />
       <Contacts />
     </div>
   )
